@@ -18,4 +18,17 @@ Zakomentuj v platform.ini:
 a spusť `Upload`
 
 ## OTA Upload
+v src/main.cpp uprav proměnné ssid, password a host.
+
+Odkomentuj v platform.ini:
+```ini
+upload_protocol = espota
+upload_port = example-device.local # musi byt {host}.local
+```
+a spusť `Upload`
+
+
+## Telnet monitor
+Nainstaluj telnet - https://kencenerelli.wordpress.com/2017/07/16/enabling-telnet-client-in-windows-10/
+
 
